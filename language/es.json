@@ -1,6 +1,6 @@
 {
   "reelButton": "Ver reel",
-  "companyHeroDescription": "Una empresa de <b>VF</b>X",
+  "companyHeroDescription": "Una empresa de V<b>FX</b>",
   "firstHeroGalleryImageDescription": "Simulaciones de polvo, humo y fuego integradas en entornos áridos, añadiendo realismo a escenas de acción.",
   "secondHeroGalleryImageDescription": "Creación de atmósferas oscuras con partículas y niebla volumétrica para reforzar el tono dramático.",
   "thirdHeroGalleryImageDescription": "Efectos mágicos y sobrenaturales que dieron credibilidad a los poderes y batallas.",
@@ -12,7 +12,7 @@
   "ninthHeroGalleryImageDescription": "Destrucción, explosiones y poderes sobrenaturales como elementos clave en escenas épicas.",
   "tenthHeroGalleryImageDescription": "Simulaciones hiperrealistas de líquidos y espuma que destacaron la frescura del producto.",
   "servicesTitle": "Servicios",
-  "servicesDescription": "Estos son algunos de nuestros servicios especializados en <b>VF</b>X. En Senzo Studio nos adaptamos a cada proyecto, ofreciendo <b>soluciones flexibles</b> y <b>personalizadas</b> según las necesidades de nuestros clientes.",
+  "servicesDescription": "Estos son algunos de nuestros servicios especializados en V<b>FX</b>. En Senzo Studio nos adaptamos a cada proyecto, ofreciendo <b>soluciones flexibles</b> y <b>personalizadas</b> según las necesidades de nuestros clientes.",
   "firstServicesCardTitle": "Particles",
   "firstServicesCardDescription": "Creación de sistemas de partículas para generar una amplia variedad de efectos dinámicos como chispas, polvo o lluvia.",
   "secondServicesCardTitle": "Fluids",
@@ -27,9 +27,9 @@
   "sixthServicesCardDescription": "Generación y control de multitudes con un comportamiento y movimientos variados, naturales y creíbles.",
   "aboutUsTitle":"Sobre nosotros",
   "aboutUsDescription":"Senzo Studio fue fundado en 2020 por Rubén y Sergio. Tras un intenso proceso de trabajo, aprendizaje y mejora, el estudio se ha consolidado como <b>líder internacional</b> en efectos visuales, colaborando con algunas de las empresas más destacadas del sector. Hoy en día, seguimos creciendo con la mirada puesta en el futuro y con la ilusión de ampliar nuestro equipo para afrontar nuevos retos.",
-  "artistCardFirstRol":"CEO, Artista <b>VF</b>X & Supervisor",
+  "artistCardFirstRol":"CEO, Artista V<b>FX</b> & Supervisor",
   "artistCardFirstDescription":"Con amplia experiencia en simulaciones complejas. Su enfoque técnico y su atención al detalle garantizan resultados visuales de alta calidad en cada proyecto.",
-  "artistCardSecondRol":"CEO, Artista <b>VF</b>X & Supervisor",
+  "artistCardSecondRol":"CEO, Artista V<b>FX</b> & Supervisor",
   "artistCardSecondDescription":"Con una sólida visión creativa, aporta innovación y soluciones visuales únicas, contribuyendo a consolidar la identidad y la calidad del estudio.",
   "clientsTitle":"Clientes",
   "clientsDescription":"Hemos transformado las visiones de los <b>estudios más renombrados del mundo</b> en realidades visuales. Estos son algunos de los nombres que confían en nuestra creatividad para dar vida a sus proyectos.",
@@ -38,7 +38,7 @@
   "footerMadeBy":"Hecho con 🧡 por",
   "tableOfContentTitle":"CONTENIDOS",
   "modalReelTitle":"Reel",
-  "modalReelDescription":"Descubre el trabajo de nuestro estudio <b>VF</b>X en este vídeo, donde combinamos <b>creatividad</b> y <b>tecnología</b> para crear efectos visuales impresionantes.",
+  "modalReelDescription":"Descubre el trabajo de nuestro estudio V<b>FX</b> en este vídeo, donde combinamos <b>creatividad</b> y <b>tecnología</b> para crear efectos visuales impresionantes.",
   "modalProjectsTitle":"Proyectos",
   "modalProjectsDescription":"Aquí puedes explorar nuestra trayectoria a través de los <b>proyectos</b> más <b>relevantes</b> en los que hemos participado, desde producciones cinematográficas hasta campañas publicitarias de gran impacto."  
 }
