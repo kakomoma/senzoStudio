@@ -393,12 +393,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const closeReelBtn = document.getElementById("close-modal-reel");
   const reelModal = document.getElementById("modal-reel");
 
+  // Obtenemos una referencia al iframe del reproductor
+  const iframe = reelModal.querySelector("iframe");
+  // Creamos un nuevo objeto de reproductor de la API de Vimeo
+  const player = new Vimeo.Player(iframe);
+
   openReelBtn?.addEventListener("click", () => {
     reelModal.classList.add("modal-show");
     body.classList.add("modal-open");
   });
 
   closeReelBtn?.addEventListener("click", () => {
+    // Pausamos el video antes de cerrar el modal
+    player.pause();
     reelModal.classList.remove("modal-show");
     setTimeout(() => body.classList.remove("modal-open"), 1000);
   });
