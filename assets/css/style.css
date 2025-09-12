@@ -1,0 +1,82 @@
+@import url("variables.css");
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--fs-regular);
+  background: var(--black-100);
+  color: var(--white-300);
+}
+
+/* HEADINGS */
+h1 {
+  font-family: var(--font-family-h);
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h);
+  font-weight: var(--fw-h);
+  letter-spacing: 0;
+  color: var(--white);
+}
+
+h2 {
+  font-family: var(--font-family-h);
+  font-size: var(--fs-h2);
+  line-height: var(--lh-h);
+  font-weight: var(--fw-h);
+  letter-spacing: 0;
+  color: var(--white);
+}
+
+/* TEXT STYLES */
+.large-bold {
+  font-size: var(--fs-large-bold);
+  line-height: var(--lh-text);
+  font-weight: var(--fw-bold);
+  letter-spacing: 0;
+  color: var(--white);
+}
+
+.large {
+  font-size: var(--fs-large);
+  line-height: var(--lh-text);
+  font-weight: var(--fw-regular);
+  letter-spacing: 0;
+  color: var(--white-100);
+}
+
+.regular-bold {
+  font-size: var(--fs-regular-bold);
+  line-height: var(--lh-text);
+  font-weight: var(--fw-bold);
+  letter-spacing: 0;
+  color: var(--white-200);
+}
+
+.regular {
+  font-size: var(--fs-regular);
+  line-height: var(--lh-text);
+  font-weight: var(--fw-regular);
+  letter-spacing: 0;
+  color: var(--white-300);
+}
+
+.small-bold {
+  font-size: var(--fs-small-bold);
+  line-height: var(--lh-text);
+  font-weight: var(--fw-bold);
+  letter-spacing: 0;
+  color: var(--white-300);
+}
+
+.small {
+  font-size: var(--fs-small);
+  line-height: var(--lh-text);
+  font-weight: var(--fw-light);
+  letter-spacing: 0;
+  color: var(--white-400);
+}
+
+b {
+  font-weight: var(--fw-bold);
+  color: var(--primary-300);
+}
+

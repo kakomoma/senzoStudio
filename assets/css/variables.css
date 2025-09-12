@@ -1,0 +1,78 @@
+:root {
+  /* typography */
+  --font-family-h: "Montalban", sans-serif;
+  --font-family: "Inter", sans-serif;
+
+  /* font-size (desktop) */
+  --fs-h1: 60px;
+  --fs-h2: 32px;
+  --fs-large-bold: 20px;
+  --fs-large: 20px;
+  --fs-regular-bold: 16px;
+  --fs-regular: 16px;
+  --fs-small-bold: 14px;
+  --fs-small: 14px;
+
+  /* font-weight */
+  --fw-h: 800;
+  --fw-bold: 600;
+  --fw-regular: 400;
+  --fw-light: 300;
+
+  /* line-height */
+  --lh-h: auto;
+  --lh-text: auto;
+
+  /* border-radius */
+  --br: 4px;
+  --br-circle: 250px;  
+
+  /* blurr */
+  --blur: 20px; 
+
+  --progress: 0;
+
+  /* COLORS */
+  --primary-100: #ffa6bb;
+  --primary-200: #ff2156;
+  --primary-300: #ff0a44;
+  --primary-400: #c80030;
+  --primary-500: #530014;
+
+  --black: #000000;
+  --black-100: #050505;
+  --black-200: #111111;
+  --black-300: #151515;
+  --black-400: #222222;
+  --black-500: #444444;
+  --black-transparent: rgba(0, 0, 0, 0.7);
+
+  --white: #ffffff;
+  --white-100: #eeeeee;
+  --white-200: #dddddd;
+  --white-300: #cccccc;
+  --white-400: #bbbbbb;
+  --white-500: #aaaaaa;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    /* font-size (mobile) */
+    --fs-h1: 52px;
+    --fs-h2: 24px;
+    --fs-large-bold: 16px;
+    --fs-large: 16px;
+    --fs-regular-bold: 12px;
+    --fs-regular: 12px;
+    --fs-small-bold: 10px;
+    --fs-small: 10px;
+
+    /* line-height (mobile) */
+    --lh-h: auto;
+    --lh-text: auto;    
+  }
+}
+
+:target {
+  scroll-margin-top: 96px;
+}

@@ -1,0 +1,131 @@
+/* Reseteamos los margin y paddings de todas las etiquetas */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+*::before,
+*::after {
+  display: block;
+}
+
+/* Saltos a seccion */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Evitamos problemas con las imagenes */
+
+img,
+picture,
+video,
+iframe,
+figure {
+  max-width: 100%;
+  display: block;
+  width: 100%;
+  height: auto;
+  /* (Opcional) */
+  object-fit: cover;
+  /* (Opcional) */
+  object-position: center center;
+}
+
+/* Reseteamos los enlaces para funcionar como cajas... */
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+/* ... excepto los que se encuentran en párrafos */
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  /* Permite romper palabras largas en cualquier parte */
+  word-wrap: break-word;
+  /* Para navegadores más antiguos */
+  word-break: normal;
+  /* Evita romper palabras de forma brusca */
+  hyphens: manual;
+  word-break: break-word;
+}
+
+th p {
+  white-space: nowrap;
+}
+
+th {
+  min-width: 100px; /* Ajusta el valor según el contenido */
+}
+
+section ul li {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* (Opcional) Configuramos anclas suaves */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Evitamos problemas con los pseudoelementos de quotes */
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* Nivelamos problemas de tipografías y colocación de formularios */
+
+form,
+textarea,
+select,
+button,
+input,
+label {
+  font-family: inherit;
+  font-size: inherit;
+  hyphens: auto;
+  background-color: transparent;
+  color: inherit;
+  display: block;
+}
+
+svg {
+  display: block;
+  fill: currentColor;
+}
+
+span {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  hyphens: auto;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
