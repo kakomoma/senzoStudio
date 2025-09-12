@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Function to fetch and apply translations
   async function loadLanguage(lang) {
     try {
-      const response = await fetch(`/language/${lang}.json`);
+      const response = await fetch(`/senzoStudio/language/${lang}.json`);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
