@@ -425,3 +425,24 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => body.classList.remove("modal-open"), 1000);
   });
 });
+
+// --- BOTÓN COPIAR PORTAPAPELES ---
+const copyBtn = document.getElementById("copyBtn");
+const emailText = document.getElementById("emailText");
+
+copyBtn.addEventListener("click", () => {
+  // Copiar texto al portapapeles
+  navigator.clipboard.writeText(emailText.textContent).then(() => {
+    const icon = copyBtn.querySelector("i");
+
+    // Cambiar icono a check
+    icon.classList.remove("fa-copy");
+    icon.classList.add("fa-check");
+
+    // Restaurar icono después de 1 segundo
+    setTimeout(() => {
+      icon.classList.remove("fa-check");
+      icon.classList.add("fa-copy");
+    }, 1000);
+  });
+});

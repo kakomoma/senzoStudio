@@ -253,6 +253,18 @@ BUTTONREGULAR
   }
 }
 
+.buttonRegularTwo {
+  display: inline-flex;
+  padding: 8px;
+  border-radius: var(--br);
+  cursor: pointer;
+  transition: background-color 250ms ease-in-out;
+}
+
+.buttonRegularTwo:hover {
+  background-color: var(--black-400);
+}
+
 /* ================================
 SLIDERDOT
 ================================= */
