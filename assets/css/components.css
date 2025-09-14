@@ -863,3 +863,12 @@ body.modal-open {
     justify-self: start;
   }
 }
+
+/* Copy container */
+.copyContainer {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
