@@ -1,1 +1,25 @@
+name: 🚀 Deploy a IONOS por SFTP
+
+on:
+  push:
+    branches:
+      - main   # cambia esto si tu rama principal no es 'main'
+
+jobs:
+  sftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
+
+      - name: Deploy a IONOS vía SFTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: sftp
+          port: 22
+          server-dir: /kunden/homepages/42/d902209363   # cambia si tu carpeta raíz no es esta
+          log-level: minimal
 
