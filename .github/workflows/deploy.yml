@@ -18,7 +18,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: sftp
+          protocol: ftp
           port: 22
           server-dir: /kunden/homepages/42/d902209363   # cambia si tu carpeta raíz no es esta
           log-level: minimal
