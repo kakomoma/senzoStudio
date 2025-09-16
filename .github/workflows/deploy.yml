@@ -13,7 +13,7 @@ jobs:
       - name: Checkout del repositorio
         uses: actions/checkout@v3
 
-      - name: Verificar archivos en el workspace
+      - name: Mostrar archivos en el workspace
         run: ls -la
 
       - name: Deploy a IONOS vía SFTP
@@ -24,5 +24,5 @@ jobs:
           username: ${{ secrets.SFTP_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "assets/** language/** index.html IONOS.txt"
-          target: "/"                               # Carpeta destino en el servidor (ajusta si necesitas)   
+          target: "/"                           # Carpeta destino en el servidor (ajusta si necesitas)   
 
