@@ -20,6 +20,6 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           port: 22
-          server-dir: /kunden/homepages/42/d902209363   # cambia si tu carpeta raíz no es esta
+          server-dir: /
           log-level: minimal
 
