@@ -1,4 +1,4 @@
-name: Deploy con SCP (llave SSH)
+name: sftp-deploy
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
           host: ${{ secrets.HOST }}
           port: 22
           username: ${{ secrets.SFTP_USERNAME }}
-          password: ${{ secrets.SSH_PRIVATE_KEY }} 
-          source: "./build"       
-          target: "~/deploy"         
+          password: ${{ secrets.SFTP_PASSWORD }}
+          source: "senzoStudio/*"       
+          target: "/"          
 
