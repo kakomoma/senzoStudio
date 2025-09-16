@@ -13,13 +13,16 @@ jobs:
       - name: Checkout del repositorio
         uses: actions/checkout@v3
 
+      - name: Verificar archivos a transferir
+        run: ls -la ./build
+
       - name: Deploy a IONOS vía SFTP
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.HOST }}
           port: 22
           username: ${{ secrets.SFTP_USERNAME }}
-          password: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "senzoStudio/**"       
-          target: "/"          
+          key: ${{ secrets.SSH_PRIVATE_KEY }}      # <-- Aquí va la llave privada
+          source: "./build/**"                     # <-- Ajusta según tu carpeta de archivos
+          target: "/"           
 
