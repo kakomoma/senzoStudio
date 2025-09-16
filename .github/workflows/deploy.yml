@@ -1,13 +1,14 @@
-name: 🚀 Deploy a IONOS por SFTP
+name: sftp-deploy
 
 on:
   push:
     branches:
-      - main   # cambia esto si tu rama principal no es 'main'
+      - main   
 
 jobs:
-  sftp-deploy:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout del repositorio
         uses: actions/checkout@v3
@@ -15,11 +16,10 @@ jobs:
       - name: Deploy a IONOS vía SFTP
         uses: appleboy/scp-action@v0.1.7
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: sftp
+          host: access902209363.webspace-data.io  
           port: 22
-          server-dir: /
-          log-level: minimal
+          username: ${{ secrets.SFTP_USERNAME }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          source: "./*"       
+          target: "/"         
 
