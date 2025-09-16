@@ -24,5 +24,5 @@ jobs:
           username: ${{ secrets.SFTP_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "assets/** language/** index.html IONOS.txt"
-          target: "/"    # Ajusta el destino según lo que necesites         
+          target: "/"    # Cambia la carpeta destino si necesitas algo específico        
 
